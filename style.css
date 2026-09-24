@@ -1,0 +1,12 @@
+/* Mintlify loads this file on every page automatically. */
+
+/* Top-bar logo: Mintlify's default is 28px tall, too small for the detailed neuron icon */
+img.nav-logo {
+  height: 44px;
+}
+
+@media (max-width: 640px) {
+  img.nav-logo {
+    height: 36px;
+  }
+}
